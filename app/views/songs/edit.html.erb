@@ -1,5 +1,7 @@
 <h1>Editing <%= @song.title %></h1>
 
+<%= link_to display_artist%>
+
 <%= form_for @song  do |f| %>
   <%= f.label :title %>
   <%= f.text_field :title %><br>
